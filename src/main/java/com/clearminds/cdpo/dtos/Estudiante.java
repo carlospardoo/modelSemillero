@@ -5,6 +5,10 @@ public class Estudiante {
 	private String apellido;
 	private int numero;
 	
+	public Estudiante(){
+		
+	}
+	
 	public Estudiante(String nombre, String apellido, int numero) {
 		super();
 		this.nombre = nombre;
