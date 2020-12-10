@@ -4,16 +4,18 @@ public class Estudiante {
 	private String nombre;
 	private String apellido;
 	private int numero;
+	private int edad;
 	
 	public Estudiante(){
 		
 	}
 	
-	public Estudiante(String nombre, String apellido, int numero) {
+	public Estudiante(String nombre, String apellido, int edad, int numero) {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.numero = numero;
+		this.edad = edad;
 	}
 
 	public Estudiante(String nombre, String apellido) {
@@ -44,6 +46,14 @@ public class Estudiante {
 
 	public void setNumero(int numero) {
 		this.numero = numero;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
 	}
 
 	@Override
